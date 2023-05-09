@@ -1,21 +1,19 @@
-import java.util.Scanner;
-class Demo 
+import java.utill.Scanner;
 {
-    public static void main(System.in)
+    public static void main(string arr[])
     {
-        String st;
-        char ch;
-        boolien b;
-        Scanner ob =new Scanner(System.in);
+        int a;
+        Scanner ob = new Scanner(system.in);
+        system.out.println("enter the no . ");
+        a = nextInt();
+        if(2%a==0)
+        {
+          system.out.println("number is even ");  
+        }
 
-        System.out.print("enter string : ");
-        st = ob.nextLine();
-        System.out.println("string= "+st);
-
-        System.out.println("charecter no 0 index"+st.charAt(0));
-
-        b=true;
-        System.out.println("boolien= "+b);
-
+        else
+        {
+          system.out.println("number is odd ");  
+        }
     }
 }
