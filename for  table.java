@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main
+class Demo
 {
     public static void main(String Arr[])
     {
